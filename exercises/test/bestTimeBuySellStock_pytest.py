@@ -1,8 +1,4 @@
-
-import sys
-sys.path.insert(0,"..")
-import BestTimeBuySellStock
-from BestTimeBuySellStock import bestTimeBuySellStockII
+from exercises.main.bestTimeBuySellStockII import Solution
 
 
 s1 = [1,2,3,4,5,6]
@@ -10,7 +6,7 @@ s2 = [7,1,5,3,6,4]
 s3 = [1,2,3,4,5]
 s4 = [7,6,4,3,1]
 
-test = bestTimeBuySellStockII.
+test = Solution()
 
 def test_s1():
     assert test.maxProfit(s1) == 5
