@@ -5,6 +5,10 @@ Find and return the maximum profit you can achieve.
 '''
 
 class Solution:
+
+    def __init__(self) -> None:
+        pass
+        
     def maxProfit(self, prices):
         
         stock = False #we do not have stock

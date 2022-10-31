@@ -1,5 +1,5 @@
-class Solution:
-    def removeDuplicatesI(self, nums: List[int]) -> int:
+class RemoveDuplicates:
+    def removeDuplicatesI(self, nums):
         
         if len(nums) < 2:
             return len(nums)
